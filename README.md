@@ -18,9 +18,9 @@ Audio -> MFCC, pitch, energy and pause/fluency features (optional: tiny Whisper 
 ## Results
 | Metric | Value |
 |---|---|
-| Training RMSE | _fill in_ |
-| CV RMSE / Pearson | _fill in_ |
-| Mean-baseline RMSE | _fill in_ |
+| Training RMSE | 0.7741 |
+| CV RMSE / Pearson | 0.7806 |
+| Mean-baseline RMSE | 0.4492|
 
 ## Notes
 - Lite version cannot hear *what* is said, so a transcript-based run (`USE_ASR = True` or the full notebook) scores better.
