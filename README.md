@@ -22,7 +22,4 @@ Audio -> MFCC, pitch, energy and pause/fluency features (optional: tiny Whisper 
 | CV RMSE / Pearson | 0.7806 |
 | Mean-baseline RMSE | 0.4492|
 
-## Notes
-- Lite version cannot hear *what* is said, so a transcript-based run (`USE_ASR = True` or the full notebook) scores better.
-- If sample-submission ids differ from `test.csv`, the notebook handles it automatically.
-- Features are cached in `cache_lite/`, so re-runs are fast.
+
